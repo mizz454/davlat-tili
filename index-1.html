@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Davlat tili — millat faxri</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: Arial, sans-serif; background: #f4f8f5; color: #183b32; line-height: 1.6; }
+    header { background: #087f5b; color: white; padding: 18px 7%; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; }
+    nav a { color: white; text-decoration: none; margin-left: 16px; }
+    nav a:hover { color: #ffe082; }
+    .hero { text-align: center; padding: 75px 20px; background: linear-gradient(135deg, #d8f3dc, white); }
+    .hero h1 { font-size: clamp(28px, 5vw, 44px); margin-bottom: 12px; }
+    .hero p { max-width: 650px; margin: 0 auto 24px; font-size: 18px; }
+    .button { display: inline-block; background: #087f5b; color: white; padding: 11px 23px; border-radius: 8px; text-decoration: none; transition: .25s; }
+    .button:hover { background: #055c42; transform: translateY(-3px); }
+    section { padding: 50px 7%; }
+    h2 { text-align: center; margin-bottom: 24px; font-size: 29px; }
+    .about { max-width: 780px; text-align: center; margin: auto; }
+    .cards { display: flex; justify-content: center; flex-wrap: wrap; gap: 18px; }
+    .card { background: white; padding: 24px; border-radius: 12px; box-shadow: 0 4px 14px #00000012; flex: 1 1 220px; max-width: 330px; transition: .25s; }
+    .card:hover { transform: translateY(-5px); box-shadow: 0 8px 20px #00000020; }
+    .card h3 { color: #087f5b; margin-bottom: 8px; }
+    .quote { background: #087f5b; color: white; text-align: center; padding: 38px 20px; font-size: 22px; font-style: italic; }
+    footer { background: #183b32; color: white; text-align: center; padding: 20px; }
+    @media (max-width: 600px) { header { justify-content: center; } nav a { margin: 0 7px; font-size: 14px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <h2 style="margin:0">🇺🇿 Davlat tili</h2>
+    <nav>
+      <a href="#about">Til haqida</a>
+      <a href="#importance">Ahamiyati</a>
+      <a href="#heritage">Meros</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="hero">
+      <h1>Davlat tili — millat faxri</h1>
+      <p>O‘zbek tili — xalqimizning bebaho boyligi, milliy qadriyatlarimiz va madaniyatimiz ramzi.</p>
+      <a class="button" href="#about">Ko‘proq bilish</a>
+    </div>
+
+    <section id="about">
+      <h2>O‘zbek tili haqida</h2>
+      <div class="about">
+        <p>O‘zbek tili O‘zbekiston Respublikasining davlat tilidir. 1989-yil 21-oktabrda o‘zbek tiliga davlat tili maqomi berilgan. Bu kun xalqimiz tarixida muhim voqea bo‘lgan.</p>
+      </div>
+    </section>
+
+    <section id="importance">
+      <h2>Tilning ahamiyati</h2>
+      <div class="cards">
+        <article class="card"><h3>Milliy qadriyat</h3><p>Til xalqimizning tarixi, urf-odatlari va an’analarini saqlaydi.</p></article>
+        <article class="card"><h3>Birlik ramzi</h3><p>Ona tilimiz insonlarni birlashtiradi va o‘zaro tushunishga yordam beradi.</p></article>
+        <article class="card"><h3>Kelajak merosi</h3><p>Tilni asrash va rivojlantirish har bir avlodning muhim vazifasidir.</p></article>
+      </div>
+    </section>
+
+    <div class="quote">“Til — millatning ko‘zgusidir.”</div>
+
+    <section id="heritage">
+      <h2>Tilimizni asraylik!</h2>
+      <div class="about"><p>O‘zbek tilida to‘g‘ri va ravon so‘zlashaylik, kitoblar o‘qiylik va tilimizni kelajak avlodlarga yetkazaylik.</p></div>
+    </section>
+  </main>
+
+  <footer><p>O‘zbek tili — faxrimiz va g‘ururimiz!</p><p>© 2026 Maktab loyihasi</p></footer>
+</body>
+</html>
